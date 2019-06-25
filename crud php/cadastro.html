@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cadastro</title>
+</head>
+<body>
+
+	<h1>cadastro</h1>
+	<form method="POST" action="inserir.php">
+     Número:<input type="text" name="numero" id="numero" size="3"/><br>
+     Descrição:<input type="text" name="descrição" id="descrição" size="50"/><br>
+     Quantidade:<input type="radio" name="quantidade" id="quantidade"><br>
+    <p><input type="submit" name="enviar" value="enviar" onclick="<?php salvar()?>" /></p>
+
+</form>
+</body>
+</html>
